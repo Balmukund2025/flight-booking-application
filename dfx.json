@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "canisters": {
+    "backend": {
+      "type": "motoko",
+      "main": "backend/main.mo",
+      "declarations": {
+        "bindings": [
+          "js",
+          "ts",
+          "did"
+        ],
+        "node_compatibility": true,
+        "output": "declarations/backend"
+      }
+    }
+  }
+}
